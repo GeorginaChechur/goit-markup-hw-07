@@ -878,12 +878,6 @@ img {
   border-top: none;
   background: var(--white-color);
 }
-
-li:hover .content-item__text,
-li:focus .content-item__text {
-  bottom: 0;
-}
-
 .content-item__description--title {
   margin-bottom: 4px;
   color: var(--dark-color);
@@ -892,12 +886,16 @@ li:focus .content-item__text {
   line-height: 2em;
   letter-spacing: 1.08px;
 }
-
 .content-item__description--subtitle {
   color: var(--main-txt-cl);
   font-size: 16px;
   line-height: 1.87em;
   letter-spacing: 0.48px;
+}
+
+li:hover .content-item__text,
+li:focus .content-item__text {
+  bottom: 0;
 }
 
 .footer {
