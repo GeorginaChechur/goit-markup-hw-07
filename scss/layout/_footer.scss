@@ -102,23 +102,15 @@
 
 .address {
     margin-top: 28px;
-
-    &__adr {
-        color: var(--white-color);
-        font-style: normal;
-        font-size: 14px;
-        line-height: 1.71em;
-        letter-spacing: 0.42px;
-    }
 }
 
-// .address__adr {
-//     color: var(--white-color);
-//     font-style: normal;
-//     font-size: 14px;
-//     line-height: 1.71em;
-//     letter-spacing: 0.42px;
-// }
+.address-adr {
+    color: var(--white-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71em;
+    letter-spacing: 0.42px;
+}
 
 
 .address-list {

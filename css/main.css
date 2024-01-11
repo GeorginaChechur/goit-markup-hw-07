@@ -979,7 +979,8 @@ li:focus .content-item__text {
 .address {
   margin-top: 28px;
 }
-.address__adr {
+
+.address-adr {
   color: var(--white-color);
   font-style: normal;
   font-size: 14px;
